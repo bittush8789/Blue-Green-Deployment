@@ -1,0 +1,6 @@
+CICD Blue-Green Deployment is a strategy designed to reduce downtime and minimize risks during software 
+updates. In this approach, two identical environments are maintained: one is 
+the "Blue" environment, which serves the live production traffic, while the 
+other is the "Green" environment, which hosts the new release. When 
+deploying a new version, the release is deployed to the Green environment, 
+which is completely separate from the current production system. 
